@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Button, Icon} from 'react-materialize'
 
 class Home extends Component {
     render() {
@@ -13,6 +14,7 @@ class Home extends Component {
                     dis parturient montes, nascetur ridiculus mus.</p>
 
                 <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
+                <Button waves='light'>Test<Icon left>save</Icon></Button>
             </div>
         );
     }
